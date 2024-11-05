@@ -94,7 +94,7 @@ function CreateOrder() {
             )}
           </div>
           {!position.latitude && !position.longitude && (
-            <span className=" absolute right-[3px] top-[3px] z-50">
+            <span className=" absolute right-[3px] top-[32px] sm:top-1 z-50">
               <Button type="small" onClick={() => dispatch(fetchAddress())}>
                 Get position
               </Button>
